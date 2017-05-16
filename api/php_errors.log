@@ -1,0 +1,484 @@
+[15-May-2017 03:05:38 UTC] PHP Fatal error:  Uncaught exception 'BadMethodCallException' with message 'Method environment is not a valid method' in /home/ubuntu/workspace/vendor/slim/slim/Slim/App.php:126
+Stack trace:
+#0 /home/ubuntu/workspace/api/v1/index.php(23): Slim\App->__call('environment', Array)
+#1 /home/ubuntu/workspace/api/v1/index.php(23): Slim\App->environment()
+#2 {main}
+  thrown in /home/ubuntu/workspace/vendor/slim/slim/Slim/App.php on line 126
+[15-May-2017 04:21:28 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/ubuntu/workspace/api/app/model/users_model.php on line 77
+[15-May-2017 04:21:28 UTC] PHP Stack trace:
+[15-May-2017 04:21:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/v1/index.php:0
+[15-May-2017 04:21:28 UTC] PHP   2. require() /home/ubuntu/workspace/api/v1/index.php:33
+[15-May-2017 04:26:19 UTC] PHP Fatal error:  Class 'App\Model\PDO' not found in /home/ubuntu/workspace/api/app/model/users_model.php on line 72
+[15-May-2017 04:26:19 UTC] PHP Stack trace:
+[15-May-2017 04:26:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/v1/index.php:0
+[15-May-2017 04:26:19 UTC] PHP   2. Slim\App->run() /home/ubuntu/workspace/api/v1/index.php:36
+[15-May-2017 04:26:19 UTC] PHP   3. Slim\App->process() /home/ubuntu/workspace/vendor/slim/slim/Slim/App.php:295
+[15-May-2017 04:26:19 UTC] PHP   4. Slim\App->callMiddlewareStack() /home/ubuntu/workspace/vendor/slim/slim/Slim/App.php:370
+[15-May-2017 04:26:19 UTC] PHP   5. Slim\App->__invoke() /home/ubuntu/workspace/vendor/slim/slim/Slim/MiddlewareAwareTrait.php:122
+[15-May-2017 04:26:19 UTC] PHP   6. Slim\Route->run() /home/ubuntu/workspace/vendor/slim/slim/Slim/App.php:476
+[15-May-2017 04:26:19 UTC] PHP   7. Slim\Route->callMiddlewareStack() /home/ubuntu/workspace/vendor/slim/slim/Slim/Route.php:316
+[15-May-2017 04:26:19 UTC] PHP   8. Slim\Route->__invoke() /home/ubuntu/workspace/vendor/slim/slim/Slim/MiddlewareAwareTrait.php:122
+[15-May-2017 04:26:19 UTC] PHP   9. Slim\Handlers\Strategies\RequestResponse->__invoke() /home/ubuntu/workspace/vendor/slim/slim/Slim/Route.php:344
+[15-May-2017 04:26:19 UTC] PHP  10. call_user_func:{/home/ubuntu/workspace/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php:41}() /home/ubuntu/workspace/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php:41
+[15-May-2017 04:26:19 UTC] PHP  11. Closure->{closure:/home/ubuntu/workspace/api/app/route/users_route.php:52-65}() /home/ubuntu/workspace/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php:41
+[15-May-2017 04:26:19 UTC] PHP  12. App\Model\UsersModel->Login() /home/ubuntu/workspace/api/app/route/users_route.php:62
+[15-May-2017 04:26:47 UTC] PHP Fatal error:  Class 'App\Model\PDO' not found in /home/ubuntu/workspace/api/app/model/users_model.php on line 72
+[15-May-2017 04:26:47 UTC] PHP Stack trace:
+[15-May-2017 04:26:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/v1/index.php:0
+[15-May-2017 04:26:47 UTC] PHP   2. Slim\App->run() /home/ubuntu/workspace/api/v1/index.php:36
+[15-May-2017 04:26:47 UTC] PHP   3. Slim\App->process() /home/ubuntu/workspace/vendor/slim/slim/Slim/App.php:295
+[15-May-2017 04:26:47 UTC] PHP   4. Slim\App->callMiddlewareStack() /home/ubuntu/workspace/vendor/slim/slim/Slim/App.php:370
+[15-May-2017 04:26:47 UTC] PHP   5. Slim\App->__invoke() /home/ubuntu/workspace/vendor/slim/slim/Slim/MiddlewareAwareTrait.php:122
+[15-May-2017 04:26:47 UTC] PHP   6. Slim\Route->run() /home/ubuntu/workspace/vendor/slim/slim/Slim/App.php:476
+[15-May-2017 04:26:47 UTC] PHP   7. Slim\Route->callMiddlewareStack() /home/ubuntu/workspace/vendor/slim/slim/Slim/Route.php:316
+[15-May-2017 04:26:47 UTC] PHP   8. Slim\Route->__invoke() /home/ubuntu/workspace/vendor/slim/slim/Slim/MiddlewareAwareTrait.php:122
+[15-May-2017 04:26:47 UTC] PHP   9. Slim\Handlers\Strategies\RequestResponse->__invoke() /home/ubuntu/workspace/vendor/slim/slim/Slim/Route.php:344
+[15-May-2017 04:26:47 UTC] PHP  10. call_user_func:{/home/ubuntu/workspace/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php:41}() /home/ubuntu/workspace/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php:41
+[15-May-2017 04:26:47 UTC] PHP  11. Closure->{closure:/home/ubuntu/workspace/api/app/route/users_route.php:52-65}() /home/ubuntu/workspace/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php:41
+[15-May-2017 04:26:47 UTC] PHP  12. App\Model\UsersModel->Login() /home/ubuntu/workspace/api/app/route/users_route.php:62
+[15-May-2017 04:29:45 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/api/app/model/users_model.php on line 73
+[15-May-2017 04:29:45 UTC] PHP Stack trace:
+[15-May-2017 04:29:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/v1/index.php:0
+[15-May-2017 04:29:45 UTC] PHP   2. Slim\App->run() /home/ubuntu/workspace/api/v1/index.php:36
+[15-May-2017 04:29:45 UTC] PHP   3. Slim\App->process() /home/ubuntu/workspace/vendor/slim/slim/Slim/App.php:295
+[15-May-2017 04:29:45 UTC] PHP   4. Slim\App->callMiddlewareStack() /home/ubuntu/workspace/vendor/slim/slim/Slim/App.php:370
+[15-May-2017 04:29:45 UTC] PHP   5. Slim\App->__invoke() /home/ubuntu/workspace/vendor/slim/slim/Slim/MiddlewareAwareTrait.php:122
+[15-May-2017 04:29:45 UTC] PHP   6. Slim\Route->run() /home/ubuntu/workspace/vendor/slim/slim/Slim/App.php:476
+[15-May-2017 04:29:45 UTC] PHP   7. Slim\Route->callMiddlewareStack() /home/ubuntu/workspace/vendor/slim/slim/Slim/Route.php:316
+[15-May-2017 04:29:45 UTC] PHP   8. Slim\Route->__invoke() /home/ubuntu/workspace/vendor/slim/slim/Slim/MiddlewareAwareTrait.php:122
+[15-May-2017 04:29:45 UTC] PHP   9. Slim\Handlers\Strategies\RequestResponse->__invoke() /home/ubuntu/workspace/vendor/slim/slim/Slim/Route.php:344
+[15-May-2017 04:29:45 UTC] PHP  10. call_user_func:{/home/ubuntu/workspace/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php:41}() /home/ubuntu/workspace/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php:41
+[15-May-2017 04:29:45 UTC] PHP  11. Closure->{closure:/home/ubuntu/workspace/api/app/route/users_route.php:52-65}() /home/ubuntu/workspace/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php:41
+[15-May-2017 04:29:45 UTC] PHP  12. App\Model\UsersModel->Login() /home/ubuntu/workspace/api/app/route/users_route.php:62
+[15-May-2017 05:16:31 UTC] PHP Parse error:  syntax error, unexpected '(', expecting ',' or ';' in /home/ubuntu/workspace/api/app/model/users_model.php on line 17
+[15-May-2017 05:16:31 UTC] PHP Stack trace:
+[15-May-2017 05:16:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/v1/index.php:0
+[15-May-2017 05:16:31 UTC] PHP   2. require() /home/ubuntu/workspace/api/v1/index.php:33
+[15-May-2017 05:36:21 UTC] PHP Fatal error:  Class 'Slim\Middleware' not found in /home/ubuntu/workspace/api/src/middleware.php on line 3
+[15-May-2017 05:36:21 UTC] PHP Stack trace:
+[15-May-2017 05:36:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/v1/index.php:0
+[15-May-2017 05:36:21 UTC] PHP   2. require() /home/ubuntu/workspace/api/v1/index.php:27
+[15-May-2017 13:57:38 UTC] PHP Warning:  require_once(/Middleware/TokenAuth.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/api/v1/index.php on line 2
+[15-May-2017 13:57:38 UTC] PHP Stack trace:
+[15-May-2017 13:57:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/v1/index.php:0
+[15-May-2017 13:57:38 UTC] PHP Fatal error:  require_once(): Failed opening required '/Middleware/TokenAuth.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/api/v1/index.php on line 2
+[15-May-2017 13:57:38 UTC] PHP Stack trace:
+[15-May-2017 13:57:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/v1/index.php:0
+[15-May-2017 14:52:12 UTC] PHP Fatal error:  Class 'MyOAuthMiddleware' not found in /home/ubuntu/workspace/api/v1/index.php on line 23
+[15-May-2017 14:52:12 UTC] PHP Stack trace:
+[15-May-2017 14:52:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/v1/index.php:0
+[15-May-2017 15:35:01 UTC] PHP Fatal error:  Call to a member function getParsedBody() on a non-object in /home/ubuntu/workspace/api/app/route/users_route.php on line 27
+[15-May-2017 15:35:01 UTC] PHP Stack trace:
+[15-May-2017 15:35:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/v1/index.php:0
+[15-May-2017 15:35:01 UTC] PHP   2. require() /home/ubuntu/workspace/api/v1/index.php:33
+[15-May-2017 15:35:01 UTC] PHP   3. require() /home/ubuntu/workspace/api/app/app_loader.php:14
+[15-May-2017 15:35:01 UTC] PHP   4. Slim\App->group() /home/ubuntu/workspace/api/app/route/users_route.php:111
+[15-May-2017 15:35:01 UTC] PHP   5. Slim\RouteGroup->__invoke() /home/ubuntu/workspace/vendor/slim/slim/Slim/App.php:268
+[15-May-2017 15:35:01 UTC] PHP   6. Closure->{closure:/home/ubuntu/workspace/api/app/route/users_route.php:25-111}() /home/ubuntu/workspace/vendor/slim/slim/Slim/RouteGroup.php:45
+[15-May-2017 15:57:02 UTC] PHP Fatal error:  Class 'JWT' not found in /home/ubuntu/workspace/api/app/route/users_route.php on line 9
+[15-May-2017 15:57:02 UTC] PHP Stack trace:
+[15-May-2017 15:57:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/v1/index.php:0
+[15-May-2017 15:57:02 UTC] PHP   2. Slim\App->run() /home/ubuntu/workspace/api/v1/index.php:36
+[15-May-2017 15:57:02 UTC] PHP   3. Slim\App->process() /home/ubuntu/workspace/vendor/slim/slim/Slim/App.php:295
+[15-May-2017 15:57:02 UTC] PHP   4. Slim\App->callMiddlewareStack() /home/ubuntu/workspace/vendor/slim/slim/Slim/App.php:370
+[15-May-2017 15:57:02 UTC] PHP   5. Slim\App->__invoke() /home/ubuntu/workspace/vendor/slim/slim/Slim/MiddlewareAwareTrait.php:122
+[15-May-2017 15:57:02 UTC] PHP   6. Slim\Route->run() /home/ubuntu/workspace/vendor/slim/slim/Slim/App.php:476
+[15-May-2017 15:57:02 UTC] PHP   7. Slim\Route->callMiddlewareStack() /home/ubuntu/workspace/vendor/slim/slim/Slim/Route.php:316
+[15-May-2017 15:57:02 UTC] PHP   8. Slim\Route->__invoke() /home/ubuntu/workspace/vendor/slim/slim/Slim/MiddlewareAwareTrait.php:122
+[15-May-2017 15:57:02 UTC] PHP   9. Slim\Handlers\Strategies\RequestResponse->__invoke() /home/ubuntu/workspace/vendor/slim/slim/Slim/Route.php:344
+[15-May-2017 15:57:02 UTC] PHP  10. call_user_func:{/home/ubuntu/workspace/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php:41}() /home/ubuntu/workspace/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php:41
+[15-May-2017 15:57:02 UTC] PHP  11. validateToken() /home/ubuntu/workspace/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php:41
+[15-May-2017 15:57:17 UTC] PHP Fatal error:  Using $this when not in object context in /home/ubuntu/workspace/api/app/route/users_route.php on line 21
+[15-May-2017 15:57:17 UTC] PHP Stack trace:
+[15-May-2017 15:57:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/v1/index.php:0
+[15-May-2017 15:57:17 UTC] PHP   2. Slim\App->run() /home/ubuntu/workspace/api/v1/index.php:36
+[15-May-2017 15:57:17 UTC] PHP   3. Slim\App->process() /home/ubuntu/workspace/vendor/slim/slim/Slim/App.php:295
+[15-May-2017 15:57:17 UTC] PHP   4. Slim\App->callMiddlewareStack() /home/ubuntu/workspace/vendor/slim/slim/Slim/App.php:370
+[15-May-2017 15:57:17 UTC] PHP   5. Slim\App->__invoke() /home/ubuntu/workspace/vendor/slim/slim/Slim/MiddlewareAwareTrait.php:122
+[15-May-2017 15:57:17 UTC] PHP   6. Slim\Route->run() /home/ubuntu/workspace/vendor/slim/slim/Slim/App.php:476
+[15-May-2017 15:57:17 UTC] PHP   7. Slim\Route->callMiddlewareStack() /home/ubuntu/workspace/vendor/slim/slim/Slim/Route.php:316
+[15-May-2017 15:57:17 UTC] PHP   8. Slim\Route->__invoke() /home/ubuntu/workspace/vendor/slim/slim/Slim/MiddlewareAwareTrait.php:122
+[15-May-2017 15:57:17 UTC] PHP   9. Slim\Handlers\Strategies\RequestResponse->__invoke() /home/ubuntu/workspace/vendor/slim/slim/Slim/Route.php:344
+[15-May-2017 15:57:17 UTC] PHP  10. call_user_func:{/home/ubuntu/workspace/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php:41}() /home/ubuntu/workspace/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php:41
+[15-May-2017 15:57:17 UTC] PHP  11. validateToken() /home/ubuntu/workspace/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php:41
+[15-May-2017 16:07:59 UTC] PHP Fatal error:  Uncaught exception 'Firebase\JWT\SignatureInvalidException' with message 'Signature verification failed' in /home/ubuntu/workspace/vendor/firebase/php-jwt/src/JWT.php:109
+Stack trace:
+#0 /home/ubuntu/workspace/api/app/route/users_route.php(10): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1Q...', 'MyS3Cr3tKey', Array)
+#1 /home/ubuntu/workspace/api/app/route/users_route.php(17): validateToken()
+#2 /home/ubuntu/workspace/vendor/slim/slim/Slim/RouteGroup.php(45): Closure->{closure}()
+#3 /home/ubuntu/workspace/vendor/slim/slim/Slim/App.php(268): Slim\RouteGroup->__invoke(Object(Slim\App))
+#4 /home/ubuntu/workspace/api/app/route/users_route.php(101): Slim\App->group('/users/', Object(Closure))
+#5 /home/ubuntu/workspace/api/app/app_loader.php(14): require('/home/ubuntu/wo...')
+#6 /home/ubuntu/workspace/api/v1/index.php(33): require('/home/ubuntu/wo...')
+#7 {main}
+  thrown in /home/ubuntu/workspace/vendor/firebase/php-jwt/src/JWT.php on line 109
+[15-May-2017 16:13:13 UTC] PHP Fatal error:  Call to undefined function validateAccessToken() in /home/ubuntu/workspace/api/app/route/users_route.php on line 30
+[15-May-2017 16:13:13 UTC] PHP Stack trace:
+[15-May-2017 16:13:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/v1/index.php:0
+[15-May-2017 16:13:13 UTC] PHP   2. require() /home/ubuntu/workspace/api/v1/index.php:33
+[15-May-2017 16:13:13 UTC] PHP   3. require() /home/ubuntu/workspace/api/app/app_loader.php:14
+[15-May-2017 16:13:13 UTC] PHP   4. Slim\App->group() /home/ubuntu/workspace/api/app/route/users_route.php:114
+[15-May-2017 16:13:13 UTC] PHP   5. Slim\RouteGroup->__invoke() /home/ubuntu/workspace/vendor/slim/slim/Slim/App.php:268
+[15-May-2017 16:13:13 UTC] PHP   6. Closure->{closure:/home/ubuntu/workspace/api/app/route/users_route.php:28-114}() /home/ubuntu/workspace/vendor/slim/slim/Slim/RouteGroup.php:45
+[15-May-2017 16:17:14 UTC] PHP Fatal error:  Function name must be a string in /home/ubuntu/workspace/api/app/route/users_route.php on line 16
+[15-May-2017 16:17:14 UTC] PHP Stack trace:
+[15-May-2017 16:17:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/v1/index.php:0
+[15-May-2017 16:17:14 UTC] PHP   2. require() /home/ubuntu/workspace/api/v1/index.php:33
+[15-May-2017 16:17:14 UTC] PHP   3. require() /home/ubuntu/workspace/api/app/app_loader.php:14
+[15-May-2017 16:17:14 UTC] PHP   4. Slim\App->group() /home/ubuntu/workspace/api/app/route/users_route.php:100
+[15-May-2017 16:17:14 UTC] PHP   5. Slim\RouteGroup->__invoke() /home/ubuntu/workspace/vendor/slim/slim/Slim/App.php:268
+[15-May-2017 16:17:14 UTC] PHP   6. Closure->{closure:/home/ubuntu/workspace/api/app/route/users_route.php:14-100}() /home/ubuntu/workspace/vendor/slim/slim/Slim/RouteGroup.php:45
+[15-May-2017 16:18:05 UTC] PHP Fatal error:  Call to a member function request() on a non-object in /home/ubuntu/workspace/api/app/route/users_route.php on line 9
+[15-May-2017 16:18:05 UTC] PHP Stack trace:
+[15-May-2017 16:18:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/v1/index.php:0
+[15-May-2017 16:18:05 UTC] PHP   2. Slim\App->run() /home/ubuntu/workspace/api/v1/index.php:36
+[15-May-2017 16:18:05 UTC] PHP   3. Slim\App->process() /home/ubuntu/workspace/vendor/slim/slim/Slim/App.php:295
+[15-May-2017 16:18:05 UTC] PHP   4. Slim\App->callMiddlewareStack() /home/ubuntu/workspace/vendor/slim/slim/Slim/App.php:370
+[15-May-2017 16:18:05 UTC] PHP   5. Slim\App->__invoke() /home/ubuntu/workspace/vendor/slim/slim/Slim/MiddlewareAwareTrait.php:122
+[15-May-2017 16:18:05 UTC] PHP   6. Slim\Route->run() /home/ubuntu/workspace/vendor/slim/slim/Slim/App.php:476
+[15-May-2017 16:18:05 UTC] PHP   7. Slim\Route->callMiddlewareStack() /home/ubuntu/workspace/vendor/slim/slim/Slim/Route.php:316
+[15-May-2017 16:18:05 UTC] PHP   8. Slim\Route->__invoke() /home/ubuntu/workspace/vendor/slim/slim/Slim/MiddlewareAwareTrait.php:122
+[15-May-2017 16:18:05 UTC] PHP   9. Slim\Handlers\Strategies\RequestResponse->__invoke() /home/ubuntu/workspace/vendor/slim/slim/Slim/Route.php:344
+[15-May-2017 16:18:05 UTC] PHP  10. call_user_func:{/home/ubuntu/workspace/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php:41}() /home/ubuntu/workspace/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php:41
+[15-May-2017 16:18:05 UTC] PHP  11. validateToken() /home/ubuntu/workspace/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php:41
+[15-May-2017 16:23:47 UTC] PHP Fatal error:  Uncaught exception 'InvalidArgumentException' with message 'Key may not be empty' in /home/ubuntu/workspace/vendor/firebase/php-jwt/src/JWT.php:72
+Stack trace:
+#0 /home/ubuntu/workspace/api/app/model/users_model.php(71): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1Q...', NULL, Array)
+#1 /home/ubuntu/workspace/api/app/route/users_route.php(7): App\Model\UsersModel->validateToken()
+#2 /home/ubuntu/workspace/vendor/slim/slim/Slim/RouteGroup.php(45): Closure->{closure}()
+#3 /home/ubuntu/workspace/vendor/slim/slim/Slim/App.php(268): Slim\RouteGroup->__invoke(Object(Slim\App))
+#4 /home/ubuntu/workspace/api/app/route/users_route.php(91): Slim\App->group('/users/', Object(Closure))
+#5 /home/ubuntu/workspace/api/app/app_loader.php(14): require('/home/ubuntu/wo...')
+#6 /home/ubuntu/workspace/api/v1/index.php(33): require('/home/ubuntu/wo...')
+#7 {main}
+  thrown in /home/ubuntu/workspace/vendor/firebase/php-jwt/src/JWT.php on line 72
+[15-May-2017 16:25:15 UTC] PHP Fatal error:  Uncaught exception 'InvalidArgumentException' with message 'Key may not be empty' in /home/ubuntu/workspace/vendor/firebase/php-jwt/src/JWT.php:72
+Stack trace:
+#0 /home/ubuntu/workspace/api/app/model/users_model.php(71): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1Q...', NULL, Array)
+#1 /home/ubuntu/workspace/api/app/route/users_route.php(7): App\Model\UsersModel->validateToken()
+#2 /home/ubuntu/workspace/vendor/slim/slim/Slim/RouteGroup.php(45): Closure->{closure}()
+#3 /home/ubuntu/workspace/vendor/slim/slim/Slim/App.php(268): Slim\RouteGroup->__invoke(Object(Slim\App))
+#4 /home/ubuntu/workspace/api/app/route/users_route.php(89): Slim\App->group('/users/', Object(Closure))
+#5 /home/ubuntu/workspace/api/app/app_loader.php(14): require('/home/ubuntu/wo...')
+#6 /home/ubuntu/workspace/api/v1/index.php(33): require('/home/ubuntu/wo...')
+#7 {main}
+  thrown in /home/ubuntu/workspace/vendor/firebase/php-jwt/src/JWT.php on line 72
+[15-May-2017 16:38:03 UTC] PHP Fatal error:  Uncaught exception 'InvalidArgumentException' with message 'Key may not be empty' in /home/ubuntu/workspace/vendor/firebase/php-jwt/src/JWT.php:72
+Stack trace:
+#0 /home/ubuntu/workspace/api/app/model/users_model.php(71): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1Q...', NULL, Array)
+#1 /home/ubuntu/workspace/api/app/route/users_route.php(7): App\Model\UsersModel->validateToken()
+#2 /home/ubuntu/workspace/vendor/slim/slim/Slim/RouteGroup.php(45): Closure->{closure}()
+#3 /home/ubuntu/workspace/vendor/slim/slim/Slim/App.php(268): Slim\RouteGroup->__invoke(Object(Slim\App))
+#4 /home/ubuntu/workspace/api/app/route/users_route.php(89): Slim\App->group('/users/', Object(Closure))
+#5 /home/ubuntu/workspace/api/app/app_loader.php(14): require('/home/ubuntu/wo...')
+#6 /home/ubuntu/workspace/api/v1/index.php(33): require('/home/ubuntu/wo...')
+#7 {main}
+  thrown in /home/ubuntu/workspace/vendor/firebase/php-jwt/src/JWT.php on line 72
+[15-May-2017 16:40:15 UTC] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'Algorithm not allowed' in /home/ubuntu/workspace/vendor/firebase/php-jwt/src/JWT.php:97
+Stack trace:
+#0 /home/ubuntu/workspace/api/app/model/users_model.php(72): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1Q...', 'MyS3Cr3tKey')
+#1 /home/ubuntu/workspace/api/app/route/users_route.php(7): App\Model\UsersModel->validateToken()
+#2 /home/ubuntu/workspace/vendor/slim/slim/Slim/RouteGroup.php(45): Closure->{closure}()
+#3 /home/ubuntu/workspace/vendor/slim/slim/Slim/App.php(268): Slim\RouteGroup->__invoke(Object(Slim\App))
+#4 /home/ubuntu/workspace/api/app/route/users_route.php(89): Slim\App->group('/users/', Object(Closure))
+#5 /home/ubuntu/workspace/api/app/app_loader.php(14): require('/home/ubuntu/wo...')
+#6 /home/ubuntu/workspace/api/v1/index.php(33): require('/home/ubuntu/wo...')
+#7 {main}
+  thrown in /home/ubuntu/workspace/vendor/firebase/php-jwt/src/JWT.php on line 97
+[15-May-2017 16:40:27 UTC] PHP Fatal error:  Uncaught exception 'Firebase\JWT\SignatureInvalidException' with message 'Signature verification failed' in /home/ubuntu/workspace/vendor/firebase/php-jwt/src/JWT.php:109
+Stack trace:
+#0 /home/ubuntu/workspace/api/app/model/users_model.php(72): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1Q...', 'MyS3Cr3tKey', Array)
+#1 /home/ubuntu/workspace/api/app/route/users_route.php(7): App\Model\UsersModel->validateToken()
+#2 /home/ubuntu/workspace/vendor/slim/slim/Slim/RouteGroup.php(45): Closure->{closure}()
+#3 /home/ubuntu/workspace/vendor/slim/slim/Slim/App.php(268): Slim\RouteGroup->__invoke(Object(Slim\App))
+#4 /home/ubuntu/workspace/api/app/route/users_route.php(89): Slim\App->group('/users/', Object(Closure))
+#5 /home/ubuntu/workspace/api/app/app_loader.php(14): require('/home/ubuntu/wo...')
+#6 /home/ubuntu/workspace/api/v1/index.php(33): require('/home/ubuntu/wo...')
+#7 {main}
+  thrown in /home/ubuntu/workspace/vendor/firebase/php-jwt/src/JWT.php on line 109
+[15-May-2017 16:41:35 UTC] PHP Fatal error:  Uncaught exception 'InvalidArgumentException' with message 'Key may not be empty' in /home/ubuntu/workspace/vendor/firebase/php-jwt/src/JWT.php:72
+Stack trace:
+#0 /home/ubuntu/workspace/api/app/model/users_model.php(71): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1Q...', NULL, Array)
+#1 /home/ubuntu/workspace/api/app/route/users_route.php(7): App\Model\UsersModel->validateToken()
+#2 /home/ubuntu/workspace/vendor/slim/slim/Slim/RouteGroup.php(45): Closure->{closure}()
+#3 /home/ubuntu/workspace/vendor/slim/slim/Slim/App.php(268): Slim\RouteGroup->__invoke(Object(Slim\App))
+#4 /home/ubuntu/workspace/api/app/route/users_route.php(89): Slim\App->group('/users/', Object(Closure))
+#5 /home/ubuntu/workspace/api/app/app_loader.php(14): require('/home/ubuntu/wo...')
+#6 /home/ubuntu/workspace/api/v1/index.php(33): require('/home/ubuntu/wo...')
+#7 {main}
+  thrown in /home/ubuntu/workspace/vendor/firebase/php-jwt/src/JWT.php on line 72
+[15-May-2017 16:43:53 UTC] PHP Fatal error:  Uncaught exception 'InvalidArgumentException' with message 'Key may not be empty' in /home/ubuntu/workspace/vendor/firebase/php-jwt/src/JWT.php:72
+Stack trace:
+#0 /home/ubuntu/workspace/api/app/model/users_model.php(71): Firebase\JWT\JWT::decode(NULL, NULL, Array)
+#1 /home/ubuntu/workspace/api/app/route/users_route.php(7): App\Model\UsersModel->validateToken()
+#2 /home/ubuntu/workspace/vendor/slim/slim/Slim/RouteGroup.php(45): Closure->{closure}()
+#3 /home/ubuntu/workspace/vendor/slim/slim/Slim/App.php(268): Slim\RouteGroup->__invoke(Object(Slim\App))
+#4 /home/ubuntu/workspace/api/app/route/users_route.php(89): Slim\App->group('/users/', Object(Closure))
+#5 /home/ubuntu/workspace/api/app/app_loader.php(14): require('/home/ubuntu/wo...')
+#6 /home/ubuntu/workspace/api/v1/index.php(33): require('/home/ubuntu/wo...')
+#7 {main}
+  thrown in /home/ubuntu/workspace/vendor/firebase/php-jwt/src/JWT.php on line 72
+[15-May-2017 16:44:18 UTC] PHP Parse error:  syntax error, unexpected 'private' (T_PRIVATE) in /home/ubuntu/workspace/api/app/model/users_model.php on line 83
+[15-May-2017 16:44:18 UTC] PHP Stack trace:
+[15-May-2017 16:44:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/v1/index.php:0
+[15-May-2017 16:44:18 UTC] PHP   2. require() /home/ubuntu/workspace/api/v1/index.php:33
+[15-May-2017 16:45:03 UTC] PHP Fatal error:  Call to undefined method App\Model\UsersModel::validateToken() in /home/ubuntu/workspace/api/app/route/users_route.php on line 7
+[15-May-2017 16:45:03 UTC] PHP Stack trace:
+[15-May-2017 16:45:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/v1/index.php:0
+[15-May-2017 16:45:03 UTC] PHP   2. require() /home/ubuntu/workspace/api/v1/index.php:33
+[15-May-2017 16:45:03 UTC] PHP   3. require() /home/ubuntu/workspace/api/app/app_loader.php:14
+[15-May-2017 16:45:03 UTC] PHP   4. Slim\App->group() /home/ubuntu/workspace/api/app/route/users_route.php:89
+[15-May-2017 16:45:03 UTC] PHP   5. Slim\RouteGroup->__invoke() /home/ubuntu/workspace/vendor/slim/slim/Slim/App.php:268
+[15-May-2017 16:45:03 UTC] PHP   6. Closure->{closure:/home/ubuntu/workspace/api/app/route/users_route.php:5-89}() /home/ubuntu/workspace/vendor/slim/slim/Slim/RouteGroup.php:45
+[15-May-2017 16:46:10 UTC] PHP Fatal error:  Uncaught exception 'InvalidArgumentException' with message 'Key may not be empty' in /home/ubuntu/workspace/vendor/firebase/php-jwt/src/JWT.php:72
+Stack trace:
+#0 /home/ubuntu/workspace/api/app/model/users_model.php(71): Firebase\JWT\JWT::decode(NULL, NULL, Array)
+#1 /home/ubuntu/workspace/api/app/route/users_route.php(7): App\Model\UsersModel->validateToken()
+#2 /home/ubuntu/workspace/vendor/slim/slim/Slim/RouteGroup.php(45): Closure->{closure}()
+#3 /home/ubuntu/workspace/vendor/slim/slim/Slim/App.php(268): Slim\RouteGroup->__invoke(Object(Slim\App))
+#4 /home/ubuntu/workspace/api/app/route/users_route.php(89): Slim\App->group('/users/', Object(Closure))
+#5 /home/ubuntu/workspace/api/app/app_loader.php(14): require('/home/ubuntu/wo...')
+#6 /home/ubuntu/workspace/api/v1/index.php(33): require('/home/ubuntu/wo...')
+#7 {main}
+  thrown in /home/ubuntu/workspace/vendor/firebase/php-jwt/src/JWT.php on line 72
+[15-May-2017 19:37:08 UTC] PHP Fatal error:  Uncaught exception 'Firebase\JWT\SignatureInvalidException' with message 'Signature verification failed' in /home/ubuntu/workspace/vendor/firebase/php-jwt/src/JWT.php:109
+Stack trace:
+#0 /home/ubuntu/workspace/api/app/model/users_model.php(71): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1Q...', 'MyS3Cr3tKey', Array)
+#1 /home/ubuntu/workspace/api/app/route/users_route.php(7): App\Model\UsersModel->validateToken()
+#2 /home/ubuntu/workspace/vendor/slim/slim/Slim/RouteGroup.php(45): Closure->{closure}()
+#3 /home/ubuntu/workspace/vendor/slim/slim/Slim/App.php(268): Slim\RouteGroup->__invoke(Object(Slim\App))
+#4 /home/ubuntu/workspace/api/app/route/users_route.php(89): Slim\App->group('/users/', Object(Closure))
+#5 /home/ubuntu/workspace/api/app/app_loader.php(14): require('/home/ubuntu/wo...')
+#6 /home/ubuntu/workspace/api/v1/index.php(33): require('/home/ubuntu/wo...')
+#7 {main}
+  thrown in /home/ubuntu/workspace/vendor/firebase/php-jwt/src/JWT.php on line 109
+[15-May-2017 19:38:21 UTC] PHP Fatal error:  Call to undefined method App\Lib\Response::next() in /home/ubuntu/workspace/api/app/model/users_model.php on line 73
+[15-May-2017 19:38:21 UTC] PHP Stack trace:
+[15-May-2017 19:38:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/v1/index.php:0
+[15-May-2017 19:38:21 UTC] PHP   2. require() /home/ubuntu/workspace/api/v1/index.php:33
+[15-May-2017 19:38:21 UTC] PHP   3. require() /home/ubuntu/workspace/api/app/app_loader.php:14
+[15-May-2017 19:38:21 UTC] PHP   4. Slim\App->group() /home/ubuntu/workspace/api/app/route/users_route.php:89
+[15-May-2017 19:38:21 UTC] PHP   5. Slim\RouteGroup->__invoke() /home/ubuntu/workspace/vendor/slim/slim/Slim/App.php:268
+[15-May-2017 19:38:21 UTC] PHP   6. Closure->{closure:/home/ubuntu/workspace/api/app/route/users_route.php:5-89}() /home/ubuntu/workspace/vendor/slim/slim/Slim/RouteGroup.php:45
+[15-May-2017 19:38:21 UTC] PHP   7. App\Model\UsersModel->validateToken() /home/ubuntu/workspace/api/app/route/users_route.php:7
+[15-May-2017 19:49:45 UTC] PHP Fatal error:  Uncaught exception 'DomainException' with message 'Null result with non-null input' in /home/ubuntu/workspace/vendor/firebase/php-jwt/src/JWT.php:281
+Stack trace:
+#0 /home/ubuntu/workspace/vendor/firebase/php-jwt/src/JWT.php(82): Firebase\JWT\JWT::jsonDecode(false)
+#1 /home/ubuntu/workspace/api/app/model/users_model.php(71): Firebase\JWT\JWT::decode('1eyJ0eXAiOiJKV1...', 'MyS3Cr3tKey', Array)
+#2 /home/ubuntu/workspace/api/app/route/users_route.php(7): App\Model\UsersModel->validateToken()
+#3 /home/ubuntu/workspace/vendor/slim/slim/Slim/RouteGroup.php(45): Closure->{closure}()
+#4 /home/ubuntu/workspace/vendor/slim/slim/Slim/App.php(268): Slim\RouteGroup->__invoke(Object(Slim\App))
+#5 /home/ubuntu/workspace/api/app/route/users_route.php(89): Slim\App->group('/users/', Object(Closure))
+#6 /home/ubuntu/workspace/api/app/app_loader.php(14): require('/home/ubuntu/wo...')
+#7 /home/ubuntu/workspace/api/v1/index.php(33): require('/home/ubuntu/wo...')
+#8 {main}
+  thrown in /home/ubuntu/workspace/vendor/firebase/php-jwt/src/JWT.php on line 281
+[15-May-2017 19:54:32 UTC] PHP Fatal error:  Using $this when not in object context in /home/ubuntu/workspace/api/app/route/users_route.php on line 13
+[15-May-2017 19:54:32 UTC] PHP Stack trace:
+[15-May-2017 19:54:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/v1/index.php:0
+[15-May-2017 19:54:32 UTC] PHP   2. Slim\App->run() /home/ubuntu/workspace/api/v1/index.php:36
+[15-May-2017 19:54:32 UTC] PHP   3. Slim\App->process() /home/ubuntu/workspace/vendor/slim/slim/Slim/App.php:295
+[15-May-2017 19:54:32 UTC] PHP   4. Slim\App->callMiddlewareStack() /home/ubuntu/workspace/vendor/slim/slim/Slim/App.php:370
+[15-May-2017 19:54:32 UTC] PHP   5. Slim\App->__invoke() /home/ubuntu/workspace/vendor/slim/slim/Slim/MiddlewareAwareTrait.php:122
+[15-May-2017 19:54:32 UTC] PHP   6. Slim\Route->run() /home/ubuntu/workspace/vendor/slim/slim/Slim/App.php:476
+[15-May-2017 19:54:32 UTC] PHP   7. Slim\Route->callMiddlewareStack() /home/ubuntu/workspace/vendor/slim/slim/Slim/Route.php:316
+[15-May-2017 19:54:32 UTC] PHP   8. Slim\Route->__invoke() /home/ubuntu/workspace/vendor/slim/slim/Slim/MiddlewareAwareTrait.php:122
+[15-May-2017 19:54:32 UTC] PHP   9. Slim\Handlers\Strategies\RequestResponse->__invoke() /home/ubuntu/workspace/vendor/slim/slim/Slim/Route.php:344
+[15-May-2017 19:54:32 UTC] PHP  10. call_user_func:{/home/ubuntu/workspace/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php:41}() /home/ubuntu/workspace/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php:41
+[15-May-2017 19:54:32 UTC] PHP  11. validateToken() /home/ubuntu/workspace/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php:41
+[15-May-2017 19:57:41 UTC] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /home/ubuntu/workspace/api/app/route/users_route.php on line 12
+[15-May-2017 19:57:41 UTC] PHP Stack trace:
+[15-May-2017 19:57:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/v1/index.php:0
+[15-May-2017 19:57:41 UTC] PHP   2. Slim\App->run() /home/ubuntu/workspace/api/v1/index.php:36
+[15-May-2017 19:57:41 UTC] PHP   3. Slim\App->process() /home/ubuntu/workspace/vendor/slim/slim/Slim/App.php:295
+[15-May-2017 19:57:41 UTC] PHP   4. Slim\App->callMiddlewareStack() /home/ubuntu/workspace/vendor/slim/slim/Slim/App.php:370
+[15-May-2017 19:57:41 UTC] PHP   5. Slim\App->__invoke() /home/ubuntu/workspace/vendor/slim/slim/Slim/MiddlewareAwareTrait.php:122
+[15-May-2017 19:57:41 UTC] PHP   6. Slim\Route->run() /home/ubuntu/workspace/vendor/slim/slim/Slim/App.php:476
+[15-May-2017 19:57:41 UTC] PHP   7. Slim\Route->callMiddlewareStack() /home/ubuntu/workspace/vendor/slim/slim/Slim/Route.php:316
+[15-May-2017 19:57:41 UTC] PHP   8. Slim\Route->__invoke() /home/ubuntu/workspace/vendor/slim/slim/Slim/MiddlewareAwareTrait.php:122
+[15-May-2017 19:57:41 UTC] PHP   9. Slim\Handlers\Strategies\RequestResponse->__invoke() /home/ubuntu/workspace/vendor/slim/slim/Slim/Route.php:344
+[15-May-2017 19:57:41 UTC] PHP  10. call_user_func:{/home/ubuntu/workspace/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php:41}() /home/ubuntu/workspace/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php:41
+[15-May-2017 19:57:41 UTC] PHP  11. validateToken() /home/ubuntu/workspace/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php:41
+[15-May-2017 23:17:50 UTC] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'Wrong number of segments' in /home/ubuntu/workspace/vendor/firebase/php-jwt/src/JWT.php:79
+Stack trace:
+#0 /home/ubuntu/workspace/api/app/model/users_model.php(72): Firebase\JWT\JWT::decode(NULL, 'MyS3Cr3tKey', Array)
+#1 /home/ubuntu/workspace/api/app/route/users_route.php(9): App\Model\UsersModel->validateToken()
+#2 /home/ubuntu/workspace/vendor/slim/slim/Slim/RouteGroup.php(45): Closure->{closure}()
+#3 /home/ubuntu/workspace/vendor/slim/slim/Slim/App.php(268): Slim\RouteGroup->__invoke(Object(Slim\App))
+#4 /home/ubuntu/workspace/api/app/route/users_route.php(85): Slim\App->group('/users/', Object(Closure))
+#5 /home/ubuntu/workspace/api/app/app_loader.php(14): require('/home/ubuntu/wo...')
+#6 /home/ubuntu/workspace/api/v1/index.php(33): require('/home/ubuntu/wo...')
+#7 {main}
+  thrown in /home/ubuntu/workspace/vendor/firebase/php-jwt/src/JWT.php on line 79
+[15-May-2017 23:18:16 UTC] PHP Fatal error:  Call to a member function Login() on a non-object in /home/ubuntu/workspace/api/app/route/users_route.php on line 52
+[15-May-2017 23:18:16 UTC] PHP Stack trace:
+[15-May-2017 23:18:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/v1/index.php:0
+[15-May-2017 23:18:16 UTC] PHP   2. Slim\App->run() /home/ubuntu/workspace/api/v1/index.php:36
+[15-May-2017 23:18:16 UTC] PHP   3. Slim\App->process() /home/ubuntu/workspace/vendor/slim/slim/Slim/App.php:295
+[15-May-2017 23:18:16 UTC] PHP   4. Slim\App->callMiddlewareStack() /home/ubuntu/workspace/vendor/slim/slim/Slim/App.php:370
+[15-May-2017 23:18:16 UTC] PHP   5. Slim\App->__invoke() /home/ubuntu/workspace/vendor/slim/slim/Slim/MiddlewareAwareTrait.php:122
+[15-May-2017 23:18:16 UTC] PHP   6. Slim\Route->run() /home/ubuntu/workspace/vendor/slim/slim/Slim/App.php:476
+[15-May-2017 23:18:16 UTC] PHP   7. Slim\Route->callMiddlewareStack() /home/ubuntu/workspace/vendor/slim/slim/Slim/Route.php:316
+[15-May-2017 23:18:16 UTC] PHP   8. Slim\Route->__invoke() /home/ubuntu/workspace/vendor/slim/slim/Slim/MiddlewareAwareTrait.php:122
+[15-May-2017 23:18:16 UTC] PHP   9. Slim\Handlers\Strategies\RequestResponse->__invoke() /home/ubuntu/workspace/vendor/slim/slim/Slim/Route.php:344
+[15-May-2017 23:18:16 UTC] PHP  10. call_user_func:{/home/ubuntu/workspace/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php:41}() /home/ubuntu/workspace/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php:41
+[15-May-2017 23:18:16 UTC] PHP  11. Closure->{closure:/home/ubuntu/workspace/api/app/route/users_route.php:45-57}() /home/ubuntu/workspace/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php:41
+[15-May-2017 23:21:54 UTC] PHP Parse error:  syntax error, unexpected '$exception' (T_VARIABLE), expecting identifier (T_STRING) or namespace (T_NAMESPACE) or \\ (T_NS_SEPARATOR) in /home/ubuntu/workspace/api/app/route/users_route.php on line 16
+[15-May-2017 23:21:54 UTC] PHP Stack trace:
+[15-May-2017 23:21:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/v1/index.php:0
+[15-May-2017 23:21:54 UTC] PHP   2. require() /home/ubuntu/workspace/api/v1/index.php:33
+[15-May-2017 23:29:22 UTC] PHP Fatal error:  Call to a member function next() on a non-object in /home/ubuntu/workspace/api/app/route/users_route.php on line 16
+[15-May-2017 23:29:22 UTC] PHP Stack trace:
+[15-May-2017 23:29:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/v1/index.php:0
+[15-May-2017 23:29:22 UTC] PHP   2. Slim\App->run() /home/ubuntu/workspace/api/v1/index.php:36
+[15-May-2017 23:29:22 UTC] PHP   3. Slim\App->process() /home/ubuntu/workspace/vendor/slim/slim/Slim/App.php:295
+[15-May-2017 23:29:22 UTC] PHP   4. Slim\App->callMiddlewareStack() /home/ubuntu/workspace/vendor/slim/slim/Slim/App.php:370
+[15-May-2017 23:29:22 UTC] PHP   5. Slim\App->__invoke() /home/ubuntu/workspace/vendor/slim/slim/Slim/MiddlewareAwareTrait.php:122
+[15-May-2017 23:29:22 UTC] PHP   6. Slim\Route->run() /home/ubuntu/workspace/vendor/slim/slim/Slim/App.php:476
+[15-May-2017 23:29:22 UTC] PHP   7. Slim\Route->callMiddlewareStack() /home/ubuntu/workspace/vendor/slim/slim/Slim/Route.php:316
+[15-May-2017 23:29:22 UTC] PHP   8. Slim\Route->__invoke() /home/ubuntu/workspace/vendor/slim/slim/Slim/MiddlewareAwareTrait.php:122
+[15-May-2017 23:29:22 UTC] PHP   9. Slim\Handlers\Strategies\RequestResponse->__invoke() /home/ubuntu/workspace/vendor/slim/slim/Slim/Route.php:344
+[15-May-2017 23:29:22 UTC] PHP  10. call_user_func:{/home/ubuntu/workspace/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php:41}() /home/ubuntu/workspace/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php:41
+[15-May-2017 23:29:22 UTC] PHP  11. validateToken() /home/ubuntu/workspace/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php:41
+[15-May-2017 23:30:33 UTC] PHP Fatal error:  Call to a member function request() on a non-object in /home/ubuntu/workspace/api/app/route/users_route.php on line 16
+[15-May-2017 23:30:33 UTC] PHP Stack trace:
+[15-May-2017 23:30:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/v1/index.php:0
+[15-May-2017 23:30:33 UTC] PHP   2. Slim\App->run() /home/ubuntu/workspace/api/v1/index.php:36
+[15-May-2017 23:30:33 UTC] PHP   3. Slim\App->process() /home/ubuntu/workspace/vendor/slim/slim/Slim/App.php:295
+[15-May-2017 23:30:33 UTC] PHP   4. Slim\App->callMiddlewareStack() /home/ubuntu/workspace/vendor/slim/slim/Slim/App.php:370
+[15-May-2017 23:30:33 UTC] PHP   5. Slim\App->__invoke() /home/ubuntu/workspace/vendor/slim/slim/Slim/MiddlewareAwareTrait.php:122
+[15-May-2017 23:30:33 UTC] PHP   6. Slim\Route->run() /home/ubuntu/workspace/vendor/slim/slim/Slim/App.php:476
+[15-May-2017 23:30:33 UTC] PHP   7. Slim\Route->callMiddlewareStack() /home/ubuntu/workspace/vendor/slim/slim/Slim/Route.php:316
+[15-May-2017 23:30:33 UTC] PHP   8. Slim\Route->__invoke() /home/ubuntu/workspace/vendor/slim/slim/Slim/MiddlewareAwareTrait.php:122
+[15-May-2017 23:30:33 UTC] PHP   9. Slim\Handlers\Strategies\RequestResponse->__invoke() /home/ubuntu/workspace/vendor/slim/slim/Slim/Route.php:344
+[15-May-2017 23:30:33 UTC] PHP  10. call_user_func:{/home/ubuntu/workspace/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php:41}() /home/ubuntu/workspace/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php:41
+[15-May-2017 23:30:33 UTC] PHP  11. validateToken() /home/ubuntu/workspace/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php:41
+[15-May-2017 23:33:23 UTC] PHP Parse error:  syntax error, unexpected ',', expecting '&' or variable (T_VARIABLE) in /home/ubuntu/workspace/api/app/route/users_route.php on line 7
+[15-May-2017 23:33:23 UTC] PHP Stack trace:
+[15-May-2017 23:33:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/v1/index.php:0
+[15-May-2017 23:33:23 UTC] PHP   2. require() /home/ubuntu/workspace/api/v1/index.php:33
+[15-May-2017 23:37:05 UTC] PHP Warning:  next() expects exactly 1 parameter, 0 given in /home/ubuntu/workspace/api/app/route/users_route.php on line 16
+[15-May-2017 23:37:05 UTC] PHP Stack trace:
+[15-May-2017 23:37:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/v1/index.php:0
+[15-May-2017 23:37:05 UTC] PHP   2. Slim\App->run() /home/ubuntu/workspace/api/v1/index.php:36
+[15-May-2017 23:37:05 UTC] PHP   3. Slim\App->process() /home/ubuntu/workspace/vendor/slim/slim/Slim/App.php:295
+[15-May-2017 23:37:05 UTC] PHP   4. Slim\App->callMiddlewareStack() /home/ubuntu/workspace/vendor/slim/slim/Slim/App.php:370
+[15-May-2017 23:37:05 UTC] PHP   5. Slim\App->__invoke() /home/ubuntu/workspace/vendor/slim/slim/Slim/MiddlewareAwareTrait.php:122
+[15-May-2017 23:37:05 UTC] PHP   6. Slim\Route->run() /home/ubuntu/workspace/vendor/slim/slim/Slim/App.php:476
+[15-May-2017 23:37:05 UTC] PHP   7. Slim\Route->callMiddlewareStack() /home/ubuntu/workspace/vendor/slim/slim/Slim/Route.php:316
+[15-May-2017 23:37:05 UTC] PHP   8. Slim\Route->__invoke() /home/ubuntu/workspace/vendor/slim/slim/Slim/MiddlewareAwareTrait.php:122
+[15-May-2017 23:37:05 UTC] PHP   9. Slim\Handlers\Strategies\RequestResponse->__invoke() /home/ubuntu/workspace/vendor/slim/slim/Slim/Route.php:344
+[15-May-2017 23:37:05 UTC] PHP  10. call_user_func:{/home/ubuntu/workspace/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php:41}() /home/ubuntu/workspace/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php:41
+[15-May-2017 23:37:05 UTC] PHP  11. validateToken() /home/ubuntu/workspace/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php:41
+[15-May-2017 23:37:05 UTC] PHP  12. next() /home/ubuntu/workspace/api/app/route/users_route.php:16
+[15-May-2017 23:53:24 UTC] PHP Warning:  next() expects exactly 1 parameter, 2 given in /home/ubuntu/workspace/api/app/route/users_route.php on line 16
+[15-May-2017 23:53:24 UTC] PHP Stack trace:
+[15-May-2017 23:53:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/v1/index.php:0
+[15-May-2017 23:53:24 UTC] PHP   2. Slim\App->run() /home/ubuntu/workspace/api/v1/index.php:36
+[15-May-2017 23:53:24 UTC] PHP   3. Slim\App->process() /home/ubuntu/workspace/vendor/slim/slim/Slim/App.php:295
+[15-May-2017 23:53:24 UTC] PHP   4. Slim\App->callMiddlewareStack() /home/ubuntu/workspace/vendor/slim/slim/Slim/App.php:370
+[15-May-2017 23:53:24 UTC] PHP   5. Slim\App->__invoke() /home/ubuntu/workspace/vendor/slim/slim/Slim/MiddlewareAwareTrait.php:122
+[15-May-2017 23:53:24 UTC] PHP   6. Slim\Route->run() /home/ubuntu/workspace/vendor/slim/slim/Slim/App.php:476
+[15-May-2017 23:53:24 UTC] PHP   7. Slim\Route->callMiddlewareStack() /home/ubuntu/workspace/vendor/slim/slim/Slim/Route.php:316
+[15-May-2017 23:53:24 UTC] PHP   8. Slim\Route->__invoke() /home/ubuntu/workspace/vendor/slim/slim/Slim/MiddlewareAwareTrait.php:122
+[15-May-2017 23:53:24 UTC] PHP   9. Slim\Handlers\Strategies\RequestResponse->__invoke() /home/ubuntu/workspace/vendor/slim/slim/Slim/Route.php:344
+[15-May-2017 23:53:24 UTC] PHP  10. call_user_func:{/home/ubuntu/workspace/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php:41}() /home/ubuntu/workspace/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php:41
+[15-May-2017 23:53:24 UTC] PHP  11. validateToken() /home/ubuntu/workspace/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php:41
+[15-May-2017 23:53:24 UTC] PHP  12. next() /home/ubuntu/workspace/api/app/route/users_route.php:16
+[15-May-2017 23:54:05 UTC] PHP Fatal error:  Function name must be a string in /home/ubuntu/workspace/api/app/route/users_route.php on line 16
+[15-May-2017 23:54:05 UTC] PHP Stack trace:
+[15-May-2017 23:54:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/v1/index.php:0
+[15-May-2017 23:54:05 UTC] PHP   2. Slim\App->run() /home/ubuntu/workspace/api/v1/index.php:36
+[15-May-2017 23:54:05 UTC] PHP   3. Slim\App->process() /home/ubuntu/workspace/vendor/slim/slim/Slim/App.php:295
+[15-May-2017 23:54:05 UTC] PHP   4. Slim\App->callMiddlewareStack() /home/ubuntu/workspace/vendor/slim/slim/Slim/App.php:370
+[15-May-2017 23:54:05 UTC] PHP   5. Slim\App->__invoke() /home/ubuntu/workspace/vendor/slim/slim/Slim/MiddlewareAwareTrait.php:122
+[15-May-2017 23:54:05 UTC] PHP   6. Slim\Route->run() /home/ubuntu/workspace/vendor/slim/slim/Slim/App.php:476
+[15-May-2017 23:54:05 UTC] PHP   7. Slim\Route->callMiddlewareStack() /home/ubuntu/workspace/vendor/slim/slim/Slim/Route.php:316
+[15-May-2017 23:54:05 UTC] PHP   8. Slim\Route->__invoke() /home/ubuntu/workspace/vendor/slim/slim/Slim/MiddlewareAwareTrait.php:122
+[15-May-2017 23:54:05 UTC] PHP   9. Slim\Handlers\Strategies\RequestResponse->__invoke() /home/ubuntu/workspace/vendor/slim/slim/Slim/Route.php:344
+[15-May-2017 23:54:05 UTC] PHP  10. call_user_func:{/home/ubuntu/workspace/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php:41}() /home/ubuntu/workspace/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php:41
+[15-May-2017 23:54:05 UTC] PHP  11. validateToken() /home/ubuntu/workspace/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php:41
+[15-May-2017 23:54:23 UTC] PHP Fatal error:  Function name must be a string in /home/ubuntu/workspace/api/app/route/users_route.php on line 16
+[15-May-2017 23:54:23 UTC] PHP Stack trace:
+[15-May-2017 23:54:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/v1/index.php:0
+[15-May-2017 23:54:23 UTC] PHP   2. Slim\App->run() /home/ubuntu/workspace/api/v1/index.php:36
+[15-May-2017 23:54:23 UTC] PHP   3. Slim\App->process() /home/ubuntu/workspace/vendor/slim/slim/Slim/App.php:295
+[15-May-2017 23:54:23 UTC] PHP   4. Slim\App->callMiddlewareStack() /home/ubuntu/workspace/vendor/slim/slim/Slim/App.php:370
+[15-May-2017 23:54:23 UTC] PHP   5. Slim\App->__invoke() /home/ubuntu/workspace/vendor/slim/slim/Slim/MiddlewareAwareTrait.php:122
+[15-May-2017 23:54:23 UTC] PHP   6. Slim\Route->run() /home/ubuntu/workspace/vendor/slim/slim/Slim/App.php:476
+[15-May-2017 23:54:23 UTC] PHP   7. Slim\Route->callMiddlewareStack() /home/ubuntu/workspace/vendor/slim/slim/Slim/Route.php:316
+[15-May-2017 23:54:23 UTC] PHP   8. Slim\Route->__invoke() /home/ubuntu/workspace/vendor/slim/slim/Slim/MiddlewareAwareTrait.php:122
+[15-May-2017 23:54:23 UTC] PHP   9. Slim\Handlers\Strategies\RequestResponse->__invoke() /home/ubuntu/workspace/vendor/slim/slim/Slim/Route.php:344
+[15-May-2017 23:54:23 UTC] PHP  10. call_user_func:{/home/ubuntu/workspace/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php:41}() /home/ubuntu/workspace/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php:41
+[15-May-2017 23:54:23 UTC] PHP  11. validateToken() /home/ubuntu/workspace/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php:41
+[16-May-2017 00:08:36 UTC] PHP Fatal error:  Function name must be a string in /home/ubuntu/workspace/api/app/route/users_route.php on line 16
+[16-May-2017 00:08:36 UTC] PHP Stack trace:
+[16-May-2017 00:08:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/v1/index.php:0
+[16-May-2017 00:08:36 UTC] PHP   2. Slim\App->run() /home/ubuntu/workspace/api/v1/index.php:36
+[16-May-2017 00:08:36 UTC] PHP   3. Slim\App->process() /home/ubuntu/workspace/vendor/slim/slim/Slim/App.php:295
+[16-May-2017 00:08:36 UTC] PHP   4. Slim\App->callMiddlewareStack() /home/ubuntu/workspace/vendor/slim/slim/Slim/App.php:370
+[16-May-2017 00:08:36 UTC] PHP   5. Slim\App->__invoke() /home/ubuntu/workspace/vendor/slim/slim/Slim/MiddlewareAwareTrait.php:122
+[16-May-2017 00:08:36 UTC] PHP   6. Slim\Route->run() /home/ubuntu/workspace/vendor/slim/slim/Slim/App.php:476
+[16-May-2017 00:08:36 UTC] PHP   7. Slim\Route->callMiddlewareStack() /home/ubuntu/workspace/vendor/slim/slim/Slim/Route.php:316
+[16-May-2017 00:08:36 UTC] PHP   8. Slim\Route->__invoke() /home/ubuntu/workspace/vendor/slim/slim/Slim/MiddlewareAwareTrait.php:122
+[16-May-2017 00:08:36 UTC] PHP   9. Slim\Handlers\Strategies\RequestResponse->__invoke() /home/ubuntu/workspace/vendor/slim/slim/Slim/Route.php:344
+[16-May-2017 00:08:36 UTC] PHP  10. call_user_func:{/home/ubuntu/workspace/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php:41}() /home/ubuntu/workspace/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php:41
+[16-May-2017 00:08:36 UTC] PHP  11. validateToken() /home/ubuntu/workspace/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php:41
+[16-May-2017 00:46:14 UTC] PHP Fatal error:  Call to a member function getHeader() on a non-object in /home/ubuntu/workspace/api/app/route/users_route.php on line 9
+[16-May-2017 00:46:14 UTC] PHP Stack trace:
+[16-May-2017 00:46:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/v1/index.php:0
+[16-May-2017 00:46:14 UTC] PHP   2. Slim\App->run() /home/ubuntu/workspace/api/v1/index.php:36
+[16-May-2017 00:46:14 UTC] PHP   3. Slim\App->process() /home/ubuntu/workspace/vendor/slim/slim/Slim/App.php:295
+[16-May-2017 00:46:14 UTC] PHP   4. Slim\App->callMiddlewareStack() /home/ubuntu/workspace/vendor/slim/slim/Slim/App.php:370
+[16-May-2017 00:46:14 UTC] PHP   5. Slim\App->__invoke() /home/ubuntu/workspace/vendor/slim/slim/Slim/MiddlewareAwareTrait.php:122
+[16-May-2017 00:46:14 UTC] PHP   6. Slim\Route->run() /home/ubuntu/workspace/vendor/slim/slim/Slim/App.php:476
+[16-May-2017 00:46:14 UTC] PHP   7. Slim\Route->callMiddlewareStack() /home/ubuntu/workspace/vendor/slim/slim/Slim/Route.php:316
+[16-May-2017 00:46:14 UTC] PHP   8. Slim\Route->__invoke() /home/ubuntu/workspace/vendor/slim/slim/Slim/MiddlewareAwareTrait.php:122
+[16-May-2017 00:46:14 UTC] PHP   9. Slim\Handlers\Strategies\RequestResponse->__invoke() /home/ubuntu/workspace/vendor/slim/slim/Slim/Route.php:344
+[16-May-2017 00:46:14 UTC] PHP  10. call_user_func:{/home/ubuntu/workspace/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php:41}() /home/ubuntu/workspace/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php:41
+[16-May-2017 00:46:14 UTC] PHP  11. validateToken() /home/ubuntu/workspace/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php:41
+[16-May-2017 00:47:28 UTC] PHP Fatal error:  Call to a member function getHeader() on a non-object in /home/ubuntu/workspace/api/app/route/users_route.php on line 9
+[16-May-2017 00:47:28 UTC] PHP Stack trace:
+[16-May-2017 00:47:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/v1/index.php:0
+[16-May-2017 00:47:28 UTC] PHP   2. Slim\App->run() /home/ubuntu/workspace/api/v1/index.php:36
+[16-May-2017 00:47:28 UTC] PHP   3. Slim\App->process() /home/ubuntu/workspace/vendor/slim/slim/Slim/App.php:295
+[16-May-2017 00:47:28 UTC] PHP   4. Slim\App->callMiddlewareStack() /home/ubuntu/workspace/vendor/slim/slim/Slim/App.php:370
+[16-May-2017 00:47:28 UTC] PHP   5. Slim\App->__invoke() /home/ubuntu/workspace/vendor/slim/slim/Slim/MiddlewareAwareTrait.php:122
+[16-May-2017 00:47:28 UTC] PHP   6. Slim\Route->run() /home/ubuntu/workspace/vendor/slim/slim/Slim/App.php:476
+[16-May-2017 00:47:28 UTC] PHP   7. Slim\Route->callMiddlewareStack() /home/ubuntu/workspace/vendor/slim/slim/Slim/Route.php:316
+[16-May-2017 00:47:28 UTC] PHP   8. Slim\Route->Slim\{closure}() /home/ubuntu/workspace/vendor/slim/slim/Slim/MiddlewareAwareTrait.php:122
+[16-May-2017 00:47:28 UTC] PHP   9. call_user_func:{/home/ubuntu/workspace/vendor/slim/slim/Slim/MiddlewareAwareTrait.php:73}() /home/ubuntu/workspace/vendor/slim/slim/Slim/MiddlewareAwareTrait.php:73
+[16-May-2017 00:47:28 UTC] PHP  10. Slim\DeferredCallable->__invoke() /home/ubuntu/workspace/vendor/slim/slim/Slim/MiddlewareAwareTrait.php:73
+[16-May-2017 00:47:28 UTC] PHP  11. call_user_func_array:{/home/ubuntu/workspace/vendor/slim/slim/Slim/DeferredCallable.php:43}() /home/ubuntu/workspace/vendor/slim/slim/Slim/DeferredCallable.php:43
+[16-May-2017 00:47:28 UTC] PHP  12. validateToken() /home/ubuntu/workspace/vendor/slim/slim/Slim/DeferredCallable.php:43
+[16-May-2017 00:50:47 UTC] PHP Parse error:  syntax error, unexpected 'validateToken' (T_STRING), expecting '(' in /home/ubuntu/workspace/api/app/route/users_route.php on line 7
+[16-May-2017 00:50:47 UTC] PHP Stack trace:
+[16-May-2017 00:50:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/v1/index.php:0
+[16-May-2017 00:50:47 UTC] PHP   2. require() /home/ubuntu/workspace/api/v1/index.php:33
+[16-May-2017 00:51:59 UTC] PHP Warning:  Missing argument 1 for validateToken(), called in /home/ubuntu/workspace/api/app/route/users_route.php on line 30 and defined in /home/ubuntu/workspace/api/app/route/users_route.php on line 6
+[16-May-2017 00:51:59 UTC] PHP Stack trace:
+[16-May-2017 00:51:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/v1/index.php:0
+[16-May-2017 00:51:59 UTC] PHP   2. require() /home/ubuntu/workspace/api/v1/index.php:33
+[16-May-2017 00:51:59 UTC] PHP   3. require() /home/ubuntu/workspace/api/app/app_loader.php:14
+[16-May-2017 00:51:59 UTC] PHP   4. Slim\App->group() /home/ubuntu/workspace/api/app/route/users_route.php:103
+[16-May-2017 00:51:59 UTC] PHP   5. Slim\RouteGroup->__invoke() /home/ubuntu/workspace/vendor/slim/slim/Slim/App.php:268
+[16-May-2017 00:51:59 UTC] PHP   6. Closure->{closure:/home/ubuntu/workspace/api/app/route/users_route.php:19-103}() /home/ubuntu/workspace/vendor/slim/slim/Slim/RouteGroup.php:45
+[16-May-2017 00:51:59 UTC] PHP   7. validateToken() /home/ubuntu/workspace/api/app/route/users_route.php:30
+[16-May-2017 00:51:59 UTC] PHP Warning:  Missing argument 2 for validateToken(), called in /home/ubuntu/workspace/api/app/route/users_route.php on line 30 and defined in /home/ubuntu/workspace/api/app/route/users_route.php on line 6
+[16-May-2017 00:51:59 UTC] PHP Stack trace:
+[16-May-2017 00:51:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/v1/index.php:0
+[16-May-2017 00:51:59 UTC] PHP   2. require() /home/ubuntu/workspace/api/v1/index.php:33
+[16-May-2017 00:51:59 UTC] PHP   3. require() /home/ubuntu/workspace/api/app/app_loader.php:14
+[16-May-2017 00:51:59 UTC] PHP   4. Slim\App->group() /home/ubuntu/workspace/api/app/route/users_route.php:103
+[16-May-2017 00:51:59 UTC] PHP   5. Slim\RouteGroup->__invoke() /home/ubuntu/workspace/vendor/slim/slim/Slim/App.php:268
+[16-May-2017 00:51:59 UTC] PHP   6. Closure->{closure:/home/ubuntu/workspace/api/app/route/users_route.php:19-103}() /home/ubuntu/workspace/vendor/slim/slim/Slim/RouteGroup.php:45
+[16-May-2017 00:51:59 UTC] PHP   7. validateToken() /home/ubuntu/workspace/api/app/route/users_route.php:30
+[16-May-2017 00:51:59 UTC] PHP Warning:  Missing argument 3 for validateToken(), called in /home/ubuntu/workspace/api/app/route/users_route.php on line 30 and defined in /home/ubuntu/workspace/api/app/route/users_route.php on line 6
+[16-May-2017 00:51:59 UTC] PHP Stack trace:
+[16-May-2017 00:51:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/v1/index.php:0
+[16-May-2017 00:51:59 UTC] PHP   2. require() /home/ubuntu/workspace/api/v1/index.php:33
+[16-May-2017 00:51:59 UTC] PHP   3. require() /home/ubuntu/workspace/api/app/app_loader.php:14
+[16-May-2017 00:51:59 UTC] PHP   4. Slim\App->group() /home/ubuntu/workspace/api/app/route/users_route.php:103
+[16-May-2017 00:51:59 UTC] PHP   5. Slim\RouteGroup->__invoke() /home/ubuntu/workspace/vendor/slim/slim/Slim/App.php:268
+[16-May-2017 00:51:59 UTC] PHP   6. Closure->{closure:/home/ubuntu/workspace/api/app/route/users_route.php:19-103}() /home/ubuntu/workspace/vendor/slim/slim/Slim/RouteGroup.php:45
+[16-May-2017 00:51:59 UTC] PHP   7. validateToken() /home/ubuntu/workspace/api/app/route/users_route.php:30
